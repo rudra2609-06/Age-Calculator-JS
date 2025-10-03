@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
       y3--;
     }
 
-    if (!result.value) {
+    if (!inputDateField.value) {
       result.textContent = "Please enter date to calculate your age";
     } else {
       result.textContent = `${y3} Years, ${m3} Months, ${d3} Days`;
